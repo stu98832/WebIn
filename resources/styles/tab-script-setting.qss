@@ -1,0 +1,16 @@
+#@id {
+  background-color: white;
+}
+
+QGroupBox {
+  border-top: 4px solid rgb(105, 205, 255);
+  border-radius: 0px;
+  margin-top: 30px; /* leave space at the top for the title */
+}
+
+QGroupBox::title {
+  background-color: transparent;
+  subcontrol-origin: margin;
+  subcontrol-position: top left; /* position at the top center */
+  min-height: 30px;
+}

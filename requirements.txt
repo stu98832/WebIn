@@ -1,0 +1,5 @@
+shiboken2==5.15.2
+beautifulsoup4==4.9.3
+pyinstaller==4.2
+PySide2==5.15.2
+requests==2.22.0

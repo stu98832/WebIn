@@ -1,0 +1,31 @@
+QTabWidget > QWidget > QWidget {
+  background-color: white;
+}
+
+QTabWidget:pane {
+ border-top: 1px solid rgb(192, 192, 192);
+}
+
+QTabBar {
+  background-color: white;
+}
+
+QTabBar::tab {
+  min-width: 100px;
+  background-color: white;
+  border-right: 1px solid rgb(224, 224, 224);
+  border-left: 1px solid rgb(224, 224, 224);
+  border-top: 6px solid white;
+  height: 43px;
+  /* padding: 9px 12px 14px 12px; */
+  margin-left: -1px;
+}
+
+QTabBar::tab:hover {
+  background-color: rgb(240, 240, 240);
+  border-top-color: rgb(240, 240, 240);
+}
+
+QTabBar::tab:selected {
+    border-top-color: rgb(105, 205, 255);
+}

@@ -1,0 +1,5 @@
+#@id {
+  background-image: url('@Resource/@image');
+  background-repeat: none;
+  background-position: center center;
+}

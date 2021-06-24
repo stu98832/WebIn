@@ -1,0 +1,9 @@
+#@id {
+  background-color: white;
+}
+
+QPushButton {
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid rgb(192, 192, 192);
+}

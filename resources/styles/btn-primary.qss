@@ -1,0 +1,13 @@
+QPushButton {
+  background-color: white;
+  image: url(@Resource/icons-new/@ButtonIcon-normal.png);
+}
+
+QPushButton:hover {
+  image: url(@Resource/icons-new/@ButtonIcon-hover.png);
+}
+
+QPushButton:pressed {
+  background-color: rgb(105, 205, 255);
+  image: url(@Resource/icons-new/@ButtonIcon-pressed.png);
+}

@@ -1,0 +1,161 @@
+#@id {
+	background-color: rgb(192, 192, 192);
+}
+
+QSplitter::handle {
+  background-image: url(@Resource/icons-new/splitter-normal.png);
+  background-position: center center;
+  background-repeat: none;
+  background-color: white;
+}
+
+QSplitter::handle:hover {
+  background-image: url(@Resource/icons-new/splitter-pressed.png);
+  background-color: rgb(224, 224, 224);
+}
+
+QSplitter::handle:pressed {
+  background-image: url(@Resource/icons-new/splitter-pressed.png);
+  background-color: rgb(105, 205, 255);
+}
+
+QTableWidget {
+  border: none;
+  background-color: white;
+  outline: 0; 
+}
+
+QTableWidget QHeaderView::section {
+  border: none;
+  background: none;
+  background-color: white;
+  border-right: 1px solid rgb(192, 192, 192);
+  border-bottom: 2px solid rgb(192, 192, 192);
+  padding: 0px 6px 0px 6px;
+}
+
+QTableWidget::item:selected {
+  background-color: rgb(105, 205, 255);
+}
+
+QCheckBox {
+  background: none;
+  border: none;
+}
+
+QCheckBox::indicator {
+  background-image: url(@Resource/icons-new/switch-circle.png);
+  background-repeat: none;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 10px;
+  width: 40px;
+  height: 18px;
+}
+
+QCheckBox::indicator:unchecked {
+  background-position: left center;
+  background-color: rgb(240, 240, 240);
+  border-left: none;
+}
+
+QCheckBox::indicator:checked {
+  background-position: right center;
+  background-color: rgb(105, 205, 255);
+  border-right: none;
+}
+
+QLineEdit {
+  border: 1px solid rgb(192, 192, 192);
+  padding: 4px;
+}
+
+QLineEdit:focus {
+  border-color: rgb(105, 205, 255);
+}
+
+QPushButton {
+  background: none;
+  border: 1px solid rgb(192, 192, 192);
+  padding: 4px 6px 4px 6px;
+}
+
+QPushButton:hover {
+  border: 1px solid rgb(105, 205, 255);
+}
+
+QPushButton:pressed {
+  background-color: rgb(105, 205, 255);
+  color: white;
+}
+
+QComboBox {
+  background: none;
+  border: 1px solid rgb(192, 192, 192);
+  padding: 4px;
+}
+
+QComboBox::drop-down {
+  subcontrol-origin: padding;
+  subcontrol-position: top right;
+  border: none;
+}
+
+QComboBox::down-arrow {
+  image: url(@Resource/icons-new/combo-expand.png);
+}
+
+QComboBox::down-arrow:on {
+  image: url(@Resource/icons-new/combo-collapse.png);
+}
+
+QComboBox QAbstractItemView {
+  border: 1px solid rgb(192, 192, 192);
+  selection-background-color: rgb(105, 205, 255);
+  outline: 0px; 
+}
+
+QScrollBar:vertical {
+  background: transparent;
+  border: none;
+  width: 12px;
+  background: rgb(230, 230, 230);
+  border-radius: 4px;
+  margin: 2px;
+}
+
+QScrollBar::handle:vertical {
+  min-height: 20px;
+  background: rgb(180, 180, 180);
+  border-radius: 4px;
+}
+
+QScrollBar:horizontal {
+  background: transparent;
+  border: none;
+  height: 12px;
+  background: rgb(230, 230, 230);
+  border-radius: 4px;
+  margin: 2px;
+}
+
+QScrollBar::handle:horizontal {
+  min-width: 20px;
+  background: rgb(180, 180, 180);
+  border-radius: 4px;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical, 
+QScrollBar::up-arrow:vertical, 
+QScrollBar::down-arrow:vertical,
+QScrollBar::add-page:vertical, 
+QScrollBar::sub-page:vertical,
+QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:horizontal, 
+QScrollBar::up-arrow:horizontal, 
+QScrollBar::down-arrow:horizontal,
+QScrollBar::add-page:horizontal, 
+QScrollBar::sub-page:horizontal {
+  background: none;
+  width: 0px;
+}
