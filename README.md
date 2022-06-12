@@ -28,13 +28,7 @@
 2. `pip install -r requirements.txt`
 3. Windows： `build.bat`
 
-   Linux ： build.sh
-
-
-
-## 系統需求
-
-* Windows 7 / Windows 8.1 / Windows 10
+   Linux ： `build.sh`
 
 
 
@@ -75,10 +69,6 @@
 2. 執行 `pip install -e extensions <套件>`
 
 > 注意：目前 pip 不支援 local 資料夾的套件移除，只能手動移除套件
-
-預設擴充套件：
-
-* pycryptodome 3.10.1
 
 
 
